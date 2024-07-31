@@ -1,0 +1,53 @@
+
+/* Foods.module.css */
+.foodListContainer {
+    margin-top: 10vh;
+    min-height: 90vh;
+    max-height: auto;
+    padding: 20px;
+  }
+  
+  .foodCard {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .foodImage {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .foodTitle {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .foodPublisher {
+    color: #666;
+  }
+  
+  .viewDetailsButton {
+    background-color: #007bffcf;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .viewDetailsButton:hover {
+    background-color: #0056b3;
+  }
+  
